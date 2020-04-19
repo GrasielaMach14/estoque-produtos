@@ -1,13 +1,27 @@
-.coluna
-{
+.w3-black {
+    background-color: #2b2929 !important;
+    }
+.coluna {
     text-align: center;
     vertical-align: middle !important;
 }
-
-.btAdd
-{
+.btAdd {
     position: relative; 
     margin-left: 91%;
     display: flex;
 }
-
+.icone {
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.photo {
+    background-image: url('../img/cinza.jpg');
+}
+.font {
+    -webkit-text-stroke-width: 0.5px; /* largura da borda */
+    -webkit-text-stroke-color: #000;
+    margin-left:15%;
+    color:white;
+}
